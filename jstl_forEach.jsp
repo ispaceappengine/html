@@ -25,5 +25,24 @@
       <option>Heino2</option>
     </select>
   </p>
-  <td > <input formaction="http://localhost/soscon/index.jsp"  formmethod="post" type="submit" value="Display InsertSensor.xml"/></td>
+  <td > <input formaction="http://localhost/soscon/index.jsp"  formmethod="post" type="submit" value="Display"/></td>
 </form>
+-----------------------------------------------------------------------------------
+<select name="item">
+<c:forEach items="${combo}" var="id">
+    <option value="${id}">${id}</option>
+</c:forEach>
+</select>
+
+<form action="some.jsp">
+  <select name="item">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select>
+  <input type="submit" value="Submit">
+</form>
+in some.jsp
+
+request.getParameter("item");
+this line will return the selected option (from the example it is: 1, 2 or 3)
