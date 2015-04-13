@@ -1,4 +1,4 @@
-head>
+<head>
 <script type="text/javascript">
 
    function changeFunc($i) {
