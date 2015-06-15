@@ -12,3 +12,20 @@ http://www.torsten-horn.de/techdocs/jsp-upload.htm
 http://www.tutorialspoint.com/jsp/jsp_file_uploading.htm
 
 -------------------------------------------------------------------------------------------------------
+
+Wenn man in einem Forms mehrere submit buttons hat
+<form  enctype="application/x-www-form-urlencoded" target="_blank">
+   <hr>
+   <input formaction="http://localhost/soscon/formular_is"  formmethod="POST" type="submit" value="Send Formular"/> 
+   <input formaction="http://localhost/soscon/formular_is"  formmethod="POST" type="submit" value="Send Formular"/> 
+   <hr>  
+   
+</form>
+
+-------------------------------------------------------------------------------------------------------
+<form action="http://localhost/sensoriqs/tstp" method="GET">
+First Name: <input type="text" name="first_name">
+<br />
+Last Name: <input type="text" name="last_name" />
+<input type="submit" value="Submit" />
+</form>
