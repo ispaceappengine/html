@@ -27,3 +27,20 @@ Function parameters are the names listed in the function definition.
 Function arguments are the real values received by the function when it is invoked.
 
 <p onclick="this.innerHTML='GOOD JOB!'">Click me.</p>
+
+All string methods return a new string. They don't modify the original string.
+Formally said: Strings are immutable: Strings cannot be changed, only replaced.
+JavaScript Numbers are Always 64-bit Floating Point
+float32, double64 gleitkommazahlen
+
+
+<script>
+var text = '{"employees":[' +
+'{"firstName":"John","lastName":"Doe" },' +
+'{"firstName":"Anna","lastName":"Smith" },' +
+'{"firstName":"Peter","lastName":"Jones" }]}';
+
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML =
+obj.employees[1].firstName + " " + obj.employees[1].lastName;
+</script>
