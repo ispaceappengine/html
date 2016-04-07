@@ -48,3 +48,8 @@ obj.employees[1].firstName + " " + obj.employees[1].lastName;
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.push("Lemon");                // adds a new element (Lemon) to fruits
 fruits[fruits.length] = "Lemon";  
+
+
+Arrays with named indexes are called associative arrays (or hashes).
+JavaScript does not support arrays with named indexes.
+In JavaScript, arrays always use numbered indexes.  
