@@ -53,3 +53,6 @@ fruits[fruits.length] = "Lemon";
 Arrays with named indexes are called associative arrays (or hashes).
 JavaScript does not support arrays with named indexes.
 In JavaScript, arrays always use numbered indexes.  
+
+var points = new Array();         // Bad
+var points = [];                  // Good 
