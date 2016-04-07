@@ -1,0 +1,27 @@
+links:
+* http://www.w3schools.com/js/default.asp
+
+invented by Brendan Eich in 1995
+html = content, css = layout, javaScript = behavior
+<script src="myScript.js"></script>
+document.getElementById("demo").innerHTML = "Hello JavaScript";
+
+<script>
+document.write(5 + 6);//nur zum Testen hernehmen
+console.log(5 + 6);
+</script>
+
+After the declaration, the variable has no value. (Technically it has the value of undefined).
+A variable declared without a value will have the value undefined.
+
+?	ternary operator, !=	not equal
+var length = 16;                               // Number
+var lastName = "Johnson";                      // String
+var cars = ["Saab", "Volvo", "BMW"];           // Array
+var x = {firstName:"John", lastName:"Doe"};    // Object
+
+function name(parameter1, parameter2, parameter3) {
+    code to be executed
+}
+Function parameters are the names listed in the function definition.
+Function arguments are the real values received by the function when it is invoked.
