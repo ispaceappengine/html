@@ -56,3 +56,6 @@ In JavaScript, arrays always use numbered indexes.
 
 var points = new Array();         // Bad
 var points = [];                  // Good 
+
+obj = document.getElementById("demo");
+obj.innerHTML = "Hello";
