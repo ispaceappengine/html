@@ -1,4 +1,25 @@
 http://www.w3schools.com/css/default.asp
+http://www.tutorialspoint.com/css/index.htm
+
++ External
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
++ Internal mit style
+<head>
+<style>
+body {
+    background-color: linen;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 40px;
+} 
+</style>
+</head>
+
 
 A CSS rule-set consists of a selector and a declaration block:
 p {
