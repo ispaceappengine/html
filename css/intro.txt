@@ -1,0 +1,42 @@
+http://www.w3schools.com/css/default.asp
+
+A CSS rule-set consists of a selector and a declaration block:
+p {
+    color: red;
+    text-align: center;
+}
+
+CSS Selectors: 
++ Element:
+p {
+    color: red;
+    text-align: center;
+}
+
++ ID Selector
+#para1 {
+    text-align: center;
+    color: red;
+}
+
+<p id="para1">Hello World!</p>
+
++ class Selector
+all HTML elements with class="center"
+.center {
+    text-align: center;
+    color: red;
+}
+<p class="center">Red paragraph.</p> 
+--------
+only <p> elements with class="center" will be center-aligned:
+p.center {
+    text-align: center;
+    color: red;
+}
+--------
+grouping:
+h1, h2, p {
+    text-align: center;
+    color: red;
+}
