@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+Sends automatically an HTTP GET request to a page and get the result back.
+<p>response:</p>
+<p id="resp">this is response</p>
+<script>
+	$.ajax({
+    url: "https://gist.githubusercontent.com/geronimoooooooo/a916893a267fbd2b2701/raw/39d85d6b67fc2cb7abce16a5fc8ccebba11692c5/multi.geojson",
+	// url: "http://ispacevm20.researchstudio.at/focusgeofence/service",
+	})
+	.done(function(data) {
+		console.log(data)
+		$("#resp").text(data);		
+  	})
+	.fail(function() {
+		alert("Ajax failed to fetch data")
+	})
+</script>
+</body>
+</html>
