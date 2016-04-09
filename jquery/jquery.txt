@@ -5,6 +5,8 @@ http://www.w3schools.com/jquery/default.asp
 </head>
 
 With jQuery you select (query) HTML elements and perform "actions" on them.
+jQuery selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors.
+All selectors in jQuery start with the dollar sign and parentheses: $().
 
 $(document).ready(function(){
    
@@ -13,8 +15,17 @@ $(document).ready(function(){
     });
     
 });
+This is to prevent any jQuery code from running before the document is finished loading (is ready).
 
 $(this).hide() - hides the current element.
 $("p").hide() - hides all <p> elements.
 $(".test").hide() - hides all elements with class="test".
 $("#test").hide() - hides the element with id="test".
+
+
+Mit callback parameter. Function wird ERST dann ausgeführt, wenn der vorherige Teil zu 100% abgeschlossen:
+$("button").click(function(){
+    $("p").hide("slow", function(){
+        alert("The paragraph is now hidden");
+    });
+});
