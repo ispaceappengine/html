@@ -20,5 +20,29 @@ Sends automatically an HTTP GET request to a page and get the result back.
 		alert("Ajax failed to fetch data")
 	})
 </script>
+
+<script>
+	$.ajax({
+  url: url,
+  data: data,
+  success: success,
+  dataType: dataType
+});
+
+$(document).ready(function() {
+    $('#userName').blur(function() {
+        $.ajax({
+            url : 'GetUserServlet',
+            data : {
+                userName : $('#userName').val()
+            },
+            success : function(responseText) {
+                $('#ajaxGetUserServletResponse').text(responseText);
+            }
+        });
+    });
+});
+</script>
 </body>
 </html>
+
