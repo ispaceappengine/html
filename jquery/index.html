@@ -10,7 +10,12 @@ $(document).ready(function(){
    
     $("#my-button").click(function() {
     alert("My button was clicked!");
-});
+    });
+    
+    $("button").click(function(event) {
+    	// Get the button id, as we will pass it to the servlet
+    	var buttonID = event.target.id;
+    });
 });
 
 
