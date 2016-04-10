@@ -1,1 +1,24 @@
+http://www.journaldev.com/4742/jquery-ajax-servlet-jsp-web-application-integration-example-tutorial
 
+  response.setContentType("text/plain");
+  response.getWriter().write(greetings);
+  
+  $(document).ready(function() {
+    $('#userName').blur(function() {
+        $.ajax({
+            url : 'GetUserServlet',
+            data : {
+                userName : $('#userName').val()
+            },
+            success : function(responseText) {
+                $('#ajaxGetUserServletResponse').text(responseText);
+            }
+        });
+    });
+});
+------------------------------------------------------------------------------------------------------
+https://www.javacodegeeks.com/2014/09/jquery-ajax-servlets-integration-building-a-complete-application.html
+------------------------------------------------------------------------------------------------------
+http://www.programming-free.com/2012/08/ajax-with-jsp-and-servlet-using-jquery.html
+------------------------------------------------------------------------------------------------------
+http://www.mysamplecode.com/2012/04/jquery-ajax-request-response-java.html
