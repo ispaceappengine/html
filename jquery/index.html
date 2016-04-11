@@ -20,6 +20,14 @@ $(document).ready(function(){
 
 
 $(function(){
+    $("#b1").click(function(event){
+    $("#pid1").text(event.target.id)
+  });
+
+    $(":button").click(function(event){
+    $("#pid2").text(event.target.id)
+  });
+    
 $("label[for='myalue']").html("asdd");
 $("#resp").text("fuu");
 });
