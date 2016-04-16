@@ -1,3 +1,4 @@
 jQuery: 
 http://www.w3schools.com/jquery/jquery_examples.asp
 http://www.tutorialrepublic.com/jquery-examples.php
+Selectors: http://www.tutorialrepublic.com/jquery-reference/jquery-selectors.php
