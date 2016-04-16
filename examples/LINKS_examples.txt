@@ -1,1 +1,3 @@
-jQuery: http://www.w3schools.com/jquery/jquery_examples.asp
+jQuery: 
+http://www.w3schools.com/jquery/jquery_examples.asp
+http://www.tutorialrepublic.com/jquery-examples.php
