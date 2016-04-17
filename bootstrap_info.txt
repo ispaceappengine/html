@@ -1,0 +1,14 @@
+http://www.w3schools.com/bootstrap/default.asp
+http://www.tutorialspoint.com/bootstrap/index.htm
+Enabling bootstrap content assist in eclipse: http://java.jasks.org/enabling_bootstrap_content_assist_in_eclipse
+
+HTML, CSS and JavaScript mobile-first framework for web sites
+Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.
+
+IN DER RICHTIGEN REIHENFOLGE VERLINKEN:
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
