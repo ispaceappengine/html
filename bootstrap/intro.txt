@@ -1,4 +1,5 @@
 http://www.w3schools.com/bootstrap/default.asp
+http://www.tutorialspoint.com/bootstrap/index.htm
 Enabling bootstrap content assist in eclipse: http://java.jasks.org/enabling_bootstrap_content_assist_in_eclipse
 
 HTML, CSS and JavaScript mobile-first framework for web sites
