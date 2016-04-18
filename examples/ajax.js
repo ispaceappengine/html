@@ -1,3 +1,10 @@
+		url:"http://ispacevm30.researchstudio.at/geoserver/focus/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=focus:geofence_sbg_caro&maxFeatures=50&outputFormat=text%2Fxml%3B+subtype%3Dgml%2F3.2",
+		//url:"http://ispacevm30.researchstudio.at/sos41/service?service=SOS&request=GetCapabilities",
+	//	url:"http://ispacevm30.researchstudio.at/sos42/service?service=SOS&request=GetCapabilities",
+		//url:"http://ispacevm30.researchstudio.at/focus/service?service=SOS&request=GetCapabilities",
+			//url: "https://gist.githubusercontent.com/geronimoooooooo/a916893a267fbd2b2701/raw/39d85d6b67fc2cb7abce16a5fc8ccebba11692c5/multi.geojson",
+			// url: "http://ispacevm20.researchstudio.at/focusgeofence/service",
+
 // Using the core $.ajax() method
 $.ajax({
  
