@@ -7,3 +7,4 @@ Selectors: http://www.tutorialrepublic.com/jquery-reference/jquery-selectors.php
 bootstrap:
 http://v4-alpha.getbootstrap.com/components/forms/
 http://www.w3resource.com/twitter-bootstrap/examples.php
+http://getbootstrap.com/components/#nav-tabs
