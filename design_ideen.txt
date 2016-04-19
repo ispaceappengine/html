@@ -1,1 +1,2 @@
 block, div, struktur: http://eenvplus.sinergis.it/52n-sos-webapp/client
+checkboxen, radio, inputfields, button: http://codeseven.github.io/toastr/demo.html
