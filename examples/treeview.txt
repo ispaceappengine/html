@@ -1,1 +1,2 @@
 http://bootsnipp.com/snippets/featured/quotboottreequot-treeview-for-bootstrap
+http://bootsnipp.com/snippets/featured/bootstrap-30-treeview
