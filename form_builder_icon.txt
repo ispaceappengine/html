@@ -2,3 +2,8 @@ http://protostrap.com/dashboard/designer/edit
 http://fortawesome.github.io/Font-Awesome/icons/
 https://formden.com/form-builder/
 http://www.francescomalagrino.com/FormBuilder/3/
+
+
+http://protostrap.com/dashboard/designer/edit#accBody33
+https://www.jqueryform.com/builder.php
+http://bootsnipp.com/forms
