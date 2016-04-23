@@ -17,7 +17,6 @@
 <title>Start</title>
 </head>
 <body>
-
 	<h1>Headlines</h1>
 
 	<ol>
