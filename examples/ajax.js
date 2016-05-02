@@ -40,3 +40,24 @@ $.ajax({
   .always(function( xhr, status ) {
     alert( "The request is complete!" );
   });
+#############################################################################################################
+<body>
+
+<button>Send an HTTP POST request to a page and get the result back</button>
+<script>
+ $.ajax({
+        url: "http://ispacevm20.researchstudio.at/focusgeofence/service",
+        method: "POST",
+        data: JSON.stringify({"a":"b"}),
+        dataType: 'json',
+        contentType: "application/json",
+         success: function(result,status,jqXHR ){
+             console.log("hi");
+         },
+         error(jqXHR, textStatus, errorThrown){
+             console.log("fehler");
+         }
+    }); 
+
+</script>
+</body>
