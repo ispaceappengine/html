@@ -80,3 +80,43 @@ Sends automatically an HTTP GET request to a page and get the result back.
 		alert("Ajax failed to fetch data")
 	})
 </script>
+############################################################################################################################
+$.ajax({
+    type : "POST",
+    url : /v1/user,
+    dataType : "text",
+    contentType: "application/json",
+    data : dataAttribute,
+    success : function() {
+    },
+    error : function(error) {
+    }
+});
+############################################################################################################################
+WENN ICH HINSCHICKE:{"name":"John Doe"}
+UND ZURÜCK ERWARTE:{"success":true}
+
+var data = {"name":"John Doe"}
+$.ajax({
+    dataType : "json",
+    contentType: "application/json; charset=utf-8",
+    data : JSON.stringify(data),
+    success : function(result) {
+        alert(result.success); // result is an object which is created from the returned JSON
+    },
+});
+############################################################################################################################
+WENN hinschicken will: name=John&age=34
+
+var data = {"name":"John", "age": 34}
+$.ajax({
+    dataType : "html",
+    contentType: "application/x-www-form-urlencoded; charset=UTF-8", // this is the default value, so it's optional
+    data : data,
+    success : function(result) {
+        jQuery("#someContainer").html(result); // result is the HTML text
+    },
+});
+############################################################################################################################
+
+############################################################################################################################
