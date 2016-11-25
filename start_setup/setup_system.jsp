@@ -19,7 +19,7 @@
 <body>
 	<h1>Headlines</h1>
 
-	<ol>
+	<ol><li>Dynamic Web Project erstellen</>
 		<li>Ordnerstruktur erstellen mit WebContent/css/css.css und
 			WebContent/js/js.js</li>
 		<li>Head vom Html befüllen 
