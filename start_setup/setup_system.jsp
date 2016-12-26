@@ -17,12 +17,12 @@
 <title>Start</title>
 </head>
 <body>
-	<h1>Headlines</h1>
+	<h1>Start a project</h1>
 
 	<ol><li>Dynamic Web Project erstellen</>
-		<li>Ordnerstruktur erstellen mit WebContent/css/css.css und
-			WebContent/js/js.js</li>
-		<li>Head vom Html befüllen 
+		<li>Ordnerstruktur erstellen mit WebContent/css/c_css.css und
+			WebContent/js/c_js.js</li>
+		<li>In WebContent index.jsp erstellen und mit nachfolgendem Inhalt ersetzen 
 		<pre>
 	<code>
 &lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot; pageEncoding=&quot;UTF-8&quot;%&gt;
@@ -34,13 +34,14 @@
 &lt;link rel=&quot;stylesheet&quot; href=&quot;http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&quot;&gt;
 &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js&quot;&gt;&lt;/script&gt;
 &lt;script src=&quot;http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/css.css&quot;&gt;
-&lt;script src=&quot;js/js.js&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/c_css.css&quot;&gt;
+&lt;script src=&quot;c_js/js.js&quot;&gt;&lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
 		test
 &lt;/body&gt;
-&lt;/html&gt;	
+&lt;/html&gt;
+	
 				</code>
 </pre>
 		</li>
