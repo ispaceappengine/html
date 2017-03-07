@@ -22,20 +22,47 @@
 	<ol><li>Dynamic Web Project erstellen</>
 		<li>Ordnerstruktur erstellen mit WebContent/css/c_css.css und
 			WebContent/js/c_js.js</li>
+		<li>Libs wie gson, logback, quartz, taglibs(4) in  WEB-INF/lib </li>
+		<li>In web.xml
+		<pre><code>
+			&lt;servlet&gt;
+			    &lt;servlet-name&gt;LoadOnStartAppConfiguration&lt;/servlet-name&gt;
+			    &lt;servlet-class&gt;utility.LoadOnStartAppConfiguration&lt;/servlet-class&gt;
+			    &lt;load-on-startup&gt;1&lt;/load-on-startup&gt;
+		    &lt;/servlet&gt;</code></pre>
+		    
+		 </li>
 		<li>In WebContent index.jsp erstellen und mit nachfolgendem Inhalt ersetzen 
 		<pre>
 	<code>
-&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot; pageEncoding=&quot;UTF-8&quot;%&gt;
+&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;	pageEncoding=&quot;UTF-8&quot;%&gt;
+&lt;%@ taglib uri=&quot;http://java.sun.com/jsp/jstl/core&quot; prefix=&quot;c&quot; %&gt;
 &lt;!DOCTYPE html&gt;
-&lt;html&gt;
 &lt;head&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&quot;&gt;
-&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/c_css.css&quot;&gt;
-&lt;script src=&quot;c_js/js.js&quot;&gt;&lt;/script&gt;
+
+&lt;script	src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script	src=&quot;http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/jquery.toast.min.css&quot;&gt;
+&lt;script src=&quot;js/jquery.toast.min.js&quot;&gt;&lt;/script&gt;	
+
+	&lt;!-- Latest compiled and minified CSS for bootstrap-SELECT--&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css&quot;&gt;
+	&lt;!-- Latest compiled and minified JavaScript for bootstrap-SELECT--&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/js/bootstrap-select.min.js&quot;&gt;&lt;/script&gt;
+
+ &lt;script src=&quot;js/c_js.js&quot;&gt;&lt;/script&gt;   
+ &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/css.css&quot;&gt;
+ &lt;link rel=&quot;stylesheet&quot; href=&quot;css/c_css.css&quot;&gt;
+ &lt;!-- bootstrap.css muss als letztes aufgelistet werden, ansonsten spackt irgendwas rum --&gt;
+ &lt;link rel=&quot;stylesheet&quot; href=&quot;http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&quot;&gt;
+ 
+ &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico type=&quot;image/vnd.microsoft.icon&quot;&gt;
+ &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico?v=2 type=&quot;image/vnd.microsoft.icon&quot;&gt;
+ 
+&lt;title&gt;Test&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
 		test
