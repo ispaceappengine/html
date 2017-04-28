@@ -22,7 +22,7 @@
 	<ol>	<li>Dynamic Web Project erstellen</li>
 		<li>XML Validation bei exclude(xml) einfügen</li>
 		<li>Ordnerstruktur erstellen mit WebContent/css/c_css.css und
-			WebContent/js/c_js.js</li>
+			WebContent/js/c_js.js und WebContent/img/img.png</li>
 		<li>Libs wie gson, logback, quartz, taglibs(4) in  WEB-INF/lib </li>
 		<li>In web.xml
 		<pre><code>
@@ -75,6 +75,7 @@
 				</code>
 </pre>
 		</li>
+		<li>favicon.ico 16x16 in /img/favicon.ico erstellen</li>
 		<li>Auf UTF-8 in Windows->Preferences->Web-> Alles auf UTF-8 umstellen</li>
 		<li>Line width auf 120 umstellen, damit nicht ständig Zeilenumbrüche</li>
 		<li>Autocomplete für JavaScript: http://stackoverflow.com/questions/43389337/autocomplete-von-available-css-classes-in-html-javascript-jquery-in-eclipse</li>
