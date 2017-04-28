@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,8 +23,8 @@
  <!-- bootstrap.css muss als letztes aufgelistet werden, ansonsten spackt irgendwas rum -->
  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  
- <link rel="icon" href="favicon.ico type="image/vnd.microsoft.icon">
- <link rel="icon" href="favicon.ico?v=2 type="image/vnd.microsoft.icon">
+ <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+ <link rel="icon" href="favicon.ico?v=2" type="image/vnd.microsoft.icon">
  
 <title>Test</title>
 </head>
