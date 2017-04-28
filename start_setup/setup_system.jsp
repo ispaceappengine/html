@@ -33,6 +33,7 @@
 		    &lt;/servlet&gt;</code></pre>
 		    
 		 </li>
+		<li>logback.xml in src auf gleicher Ebene wie alle packages</li>
 		<li>In WebContent index.jsp erstellen und mit nachfolgendem Inhalt ersetzen 
 		<pre>
 	<code>
