@@ -39,6 +39,7 @@
 &lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;	pageEncoding=&quot;UTF-8&quot;%&gt;
 &lt;%@ taglib uri=&quot;http://java.sun.com/jsp/jstl/core&quot; prefix=&quot;c&quot; %&gt;
 &lt;!DOCTYPE html&gt;
+&lt;html&gt;
 &lt;head&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
