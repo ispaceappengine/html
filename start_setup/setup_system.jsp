@@ -62,8 +62,8 @@
  &lt;!-- bootstrap.css muss als letztes aufgelistet werden, ansonsten spackt irgendwas rum --&gt;
  &lt;link rel=&quot;stylesheet&quot; href=&quot;http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&quot;&gt;
  
- &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico type=&quot;image/vnd.microsoft.icon&quot;&gt;
- &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico?v=2 type=&quot;image/vnd.microsoft.icon&quot;&gt;
+ &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico&quot; type=&quot;image/vnd.microsoft.icon&quot;&gt;
+ &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico?v=2&quot; type=&quot;image/vnd.microsoft.icon&quot;&gt;
  
 &lt;title&gt;Test&lt;/title&gt;
 &lt;/head&gt;
