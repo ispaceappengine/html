@@ -77,7 +77,7 @@
 </pre>
 		</li>
 		<li>favicon.ico 32x32 in /img/favicon.ico erstellen. Das 32x32 Bild online in .ico umwandeln. Neuladen von favicon durch rechtsklick
-		auf Tab und dann "Neuladen"</li>
+		auf Tab und dann "Neuladen". http://convertico.com/ zum ico umwandlung</li>
 		<li>Auf UTF-8 in Windows->Preferences->Web-> Alles auf UTF-8 umstellen</li>
 		<li>Line width auf 120 umstellen, damit nicht ständig Zeilenumbrüche</li>
 		<li>Autocomplete für JavaScript: http://stackoverflow.com/questions/43389337/autocomplete-von-available-css-classes-in-html-javascript-jquery-in-eclipse</li>
