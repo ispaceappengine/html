@@ -62,8 +62,9 @@
  &lt;!-- bootstrap.css muss als letztes aufgelistet werden, ansonsten spackt irgendwas rum --&gt;
  &lt;link rel=&quot;stylesheet&quot; href=&quot;http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&quot;&gt;
  
- &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico&quot; type=&quot;image/vnd.microsoft.icon&quot;&gt;
  &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico?v=2&quot; type=&quot;image/vnd.microsoft.icon&quot;&gt;
+ &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico&quot; type=&quot;image/vnd.microsoft.icon&quot;&gt;
+ 
  
 &lt;title&gt;Test&lt;/title&gt;
 &lt;/head&gt;
@@ -75,7 +76,8 @@
 				</code>
 </pre>
 		</li>
-		<li>favicon.ico 16x16 in /img/favicon.ico erstellen</li>
+		<li>favicon.ico 32x32 in /img/favicon.ico erstellen. Das 32x32 Bild online in .ico umwandeln. Neuladen von favicon durch rechtsklick
+		auf Tab und dann "Neuladen"</li>
 		<li>Auf UTF-8 in Windows->Preferences->Web-> Alles auf UTF-8 umstellen</li>
 		<li>Line width auf 120 umstellen, damit nicht ständig Zeilenumbrüche</li>
 		<li>Autocomplete für JavaScript: http://stackoverflow.com/questions/43389337/autocomplete-von-available-css-classes-in-html-javascript-jquery-in-eclipse</li>
