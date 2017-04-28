@@ -19,7 +19,8 @@
 <body>
 	<h1>Start a project</h1>
 
-	<ol><li>Dynamic Web Project erstellen</>
+	<ol>	<li>Dynamic Web Project erstellen</li>
+		<li>XML Validation bei exclude(xml) einfügen</li>
 		<li>Ordnerstruktur erstellen mit WebContent/css/c_css.css und
 			WebContent/js/c_js.js</li>
 		<li>Libs wie gson, logback, quartz, taglibs(4) in  WEB-INF/lib </li>
