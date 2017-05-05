@@ -80,7 +80,15 @@
 		auf Tab und dann "Neuladen". http://convertico.com/ zum ico umwandlung</li>
 		<li>Auf UTF-8 in Windows->Preferences->Web-> Alles auf UTF-8 umstellen</li>
 		<li>Line width auf 120 umstellen, damit nicht ständig Zeilenumbrüche</li>
-		<li>Autocomplete für JavaScript: http://stackoverflow.com/questions/43389337/autocomplete-von-available-css-classes-in-html-javascript-jquery-in-eclipse</li>
+		<li>Autocomplete für Bootstrap:
+    <ul>
+    <li> http://stackoverflow.com/questions/43389337/autocomplete-von-available-css-classes-in-html-javascript-jquery-in-eclipse</li>
+    </ul>
+    <li>Autocomplete für JavaScript:</li>
+    <ul>
+    <li>http://www.heldentaten-raid.de/wiki/index.php?title=Links2topics#Autocomplete</li>
+    </ul>
+   
 		<li>File Associations hinzufügen: <a href="http://stackoverflow.com/questions/7900575/how-to-add-css-autocomplete-to-eclipse">http://stackoverflow.com/questions/7900575/how-to-add-css-autocomplete-to-eclipse</a>
 		<li>Weitere Einstellung: <a	href="http://stackoverflow.com/questions/12269560/javascript-editor-plugin-for-eclipse">http://stackoverflow.com/questions/12269560/javascript-editor-plugin-for-eclipse</a>
 		<li>JBoss Tools editor für bootstrap content assist:<br> 
