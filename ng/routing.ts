@@ -17,3 +17,6 @@ RouterModule
 declarations: []
 })
 export class AppRoutingModule { }
+----------------
+  <router-outlet></router-outlet> in app.component.html
+------------
