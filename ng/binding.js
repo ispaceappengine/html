@@ -8,6 +8,7 @@ class JokeComponent {
 <sidebar (searchTermChanged)="searchTerm = $event"></sidebar>
 <content [searchTerm]="searchTerm"></content>
 ------------------------------
+<strong ngNonBindable> {{(5*5+1)/2}} </strong>
 ------------------------------
 ------------------------------
 -------------------------------
