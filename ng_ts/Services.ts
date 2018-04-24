@@ -1,6 +1,23 @@
+import { MockData } from './../mock-data/mock-product-data';
 import { Injectable } from '@angular/core';
-  @Injectable()
-  export class ProductService {
-  constructor() { }
+import { Product } from '../models/product';
+
+@Injectable()
+export class ProductService {
+  products: Product[] = [];
+  constructor() {
+  this.products = MockData.Products;
+  }
+  
+getProducts(): Product[] {
+  return this.products;
+}
+  
+removeProduct(product: Product) {
+  let index = this.products.indexOf(product);
+  if (index !== -1) {
+  this.products.splice(index, 1);
+  }
+  }
 }
 --------------------------------------------------
