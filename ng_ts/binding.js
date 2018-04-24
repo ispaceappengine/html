@@ -24,6 +24,7 @@ class ProductComponent{
     this.removed.emit(this.product);
     }
 }
-<app-product class="col-md-3" [product]="p" *ngFor="let p of products"></app-product>
+//wird in products.html hingeschrieben
+<app-product class="col-md-3" [product]="p" (removed)="deleteProduct($event)" *ngFor="let p of products"></app-product>
 --------------------------------------------------------------
 -------------------------------------------------------------
