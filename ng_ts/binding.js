@@ -16,12 +16,23 @@ constructor() {
 }
 -------------------------------------------------------------
 import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
+
 class ProductComponent{
     @Input('product') data: Product;
     @Output() removed = new EventEmitter();
 
     delete() {
     this.removed.emit(this.product);
+    }
+}
+
+class ProductsComponent{
+    
+    deleteProduct(product: Product) {
+    let index = this.products.indexOf(product);
+    if (index !== -1) {
+    this.products.splice(index, 1);
+    }
     }
 }
 //wird in products.html hingeschrieben
