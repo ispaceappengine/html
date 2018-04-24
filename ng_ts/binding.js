@@ -15,9 +15,14 @@ constructor() {
     this.products = MockData.Products;
 }
 -------------------------------------------------------------
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 class ProductComponent{
     @Input('product') data: Product;
-...
+    @Output() removed = new EventEmitter();
+
+    delete() {
+    this.removed.emit(this.product);
+    }
 }
 <app-product class="col-md-3" [product]="p" *ngFor="let p of products"></app-product>
 --------------------------------------------------------------
