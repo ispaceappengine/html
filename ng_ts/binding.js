@@ -15,6 +15,10 @@ constructor() {
     this.products = MockData.Products;
 }
 -------------------------------------------------------------
-    <app-product class="col-md-3" [product]="p" *ngFor="let p of products"></app-product>
+class ProductComponent{
+    @Input() product: Product;
+...
+}
+<app-product class="col-md-3" [product]="p" *ngFor="let p of products"></app-product>
 --------------------------------------------------------------
 -------------------------------------------------------------
