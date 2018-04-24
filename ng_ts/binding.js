@@ -16,7 +16,7 @@ constructor() {
 }
 -------------------------------------------------------------
 class ProductComponent{
-    @Input() product: Product;
+    @Input('product') data: Product;
 ...
 }
 <app-product class="col-md-3" [product]="p" *ngFor="let p of products"></app-product>
