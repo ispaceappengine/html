@@ -1,0 +1,17 @@
+<table class="table">
+<thead>
+<tr>
+<th>Title</th>
+<th>Product Type</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let product of products">
+<td scope="row">{{product.title}}</td>
+<td>{{product.productType}}</td>
+<td>{{product.price | currency : 'INR'}}</td>
+</tr>
+</tbody>
+</table>
+</div>
