@@ -17,7 +17,7 @@ ngOnChanges(changes: SimpleChanges) {
 <li *ngFor="let skill of skills">{{skill}}</li>
 </ol>
 -----------------------------------------------------
-<app-product class="col-md-3" *ngFor="let p of products"></app-product>
+<app-product class="col-md-3" [product]="p" *ngFor="let p of products"></app-product>
 -----------------------------------------------------
 -----------------------------------------------------
 -----------------------------------------------------
