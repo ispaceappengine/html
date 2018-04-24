@@ -7,7 +7,7 @@ class JokeListComponent {
   @ViewChild("header") headerEl: ElementRef; //reference to template variable
 -----------------------------------------
 class ProductComponent{
-  @Input() product: Product;
+@Input('product') data: Product;
 ...
 }
 -----------------------------------------
