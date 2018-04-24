@@ -10,6 +10,10 @@ class JokeComponent {
 ------------------------------
 <strong ngNonBindable> {{(5*5+1)/2}} </strong>
 ------------------------------
+products: Product[] = [];
+constructor() {
+    this.products = MockData.Products;
+}
 ------------------------------
 -------------------------------
 ------------------------------
