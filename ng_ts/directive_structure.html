@@ -2,3 +2,19 @@
   aria-hidden="true" 
   *ngIf="product.productType=='Laptop'">
 </i>
+-------------------------------
+<ul *ngFor="let group of peopleByCountry"> 
+  <li>{{ group.country }}</li>
+  <ul>
+    <li *ngFor="let person of group.people"> 
+      {{ person.name }}
+    </li>
+  </ul>
+</ul>
+-------------------------------------------------
+<ul *ngFor="let person of people">
+  <li *ngIf="person.age < 30">
+    {{ person.name }} ({{ person.age }})
+  </li>
+</ul>
+-------------------------------------------------
