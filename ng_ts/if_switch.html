@@ -1,0 +1,32 @@
+<ul *ngFor="let person of people">
+<li *ngIf="person.country ==='UK'"
+class="text-success">{{ person.name }} ({{ person.country }})
+</li>
+<li *ngIf="person.country === 'USA'"
+class="text-primary">{{ person.name }} ({{ person.country }})
+</li>
+<li *ngIf="person.country === 'HK'"
+class="text-danger">{{ person.name }} ({{ person.country }})
+</li>
+<li *ngIf="person.country !== 'HK' && person.country !== 'UK' && person.country !==
+'USA'"
+class="text-warning">{{ person.name }} ({{ person.country }})
+</li>
+</ul>
+--------------------------------------------
+<ul *ngFor="let person of people"
+[ngSwitch]="person.country"> ①
+<li *ngSwitchCase="'UK'" ②
+class="text-success">{{ person.name }} ({{ person.country }})
+</li>
+<li *ngSwitchCase="'USA'"
+class="text-primary">{{ person.name }} ({{ person.country }})
+</li>
+<li *ngSwitchCase="'HK'"
+class="text-danger">{{ person.name }} ({{ person.country }})
+</li>
+<li *ngSwitchDefault ③
+class="text-warning">{{ person.name }} ({{ person.country }})
+</li>
+</ul>
+--------------------------------------------
