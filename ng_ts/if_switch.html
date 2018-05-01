@@ -1,3 +1,16 @@
+<template [ngIf]='condition'>
+  <p>I am the content to show</p>
+</template>
+
+<template [ngIf]="!data.hide">
+  <p class="card-text"> {{ data.punchline }}
+  </p>
+</template>
+
+<p class="card-text" *ngIf="!data.hide">
+  {{ data.punchline }}
+</p>
+--------------------------------------------
 <ul *ngFor="let person of people">
 <li *ngIf="person.country ==='UK'"
 class="text-success">{{ person.name }} ({{ person.country }})
